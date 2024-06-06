@@ -4,12 +4,12 @@
     box-sizing: border-box;
     margin: 0px;
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 header {
     background-color: #1f2937;
-    height: auto;
+    height: min-content;
 }
 
 .logo {
@@ -21,6 +21,10 @@ header {
     padding: 5px 0;
     margin-right: auto;
     font-weight: 300;
+}
+
+li {
+    font-size: 16px;
 }
 
 ul {
@@ -43,14 +47,33 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+    height: auto;
+}
+
+.main_img {
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px rgb(26, 25, 25);
+    margin-bottom: 40px;
 }
 
 .intro {
     display: block;
-    width: 300px;
+    width: max-content;
     color: rgb(233, 250, 255);
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
 }
 
-.intro, h3 {
-    font-size: 1.8rem;
+h3 {
+    font-size: 2rem;
+}
+
+.signup {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
 }
