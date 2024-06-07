@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 14px;
 }
 
@@ -40,7 +40,7 @@ ul {
 
 .nav {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -53,7 +53,8 @@ ul {
 .main_img {
     border-radius: 4px;
     box-shadow: 3px 3px 2px rgb(26, 25, 25);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    height: 12em;
 }
 
 .intro {
@@ -87,19 +88,37 @@ h3 {
 
 #highlights h3 {
     font-size: 18px;
-    margin: 30px 0;
+    margin: 20px 0;
     font-weight: bold;
     font-family: sans-serif;
 }
 
 .drones {
+    padding-bottom: 30px;
     display: flex;
     gap: 30px;
     max-width: min-content;
 }
 
 #seasons img{
-    border: 3px solid #3882F6;
+    border: 3px solid #3881f650;
     border-radius: 10px;
     box-shadow: 3px 2px 4px rgba(128, 128, 128, 0.767);
+}
+
+#seasons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#seasons  p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#info {
+    height: 20vh;
+    background-color: #E5E7EB;
+    padding: 30px 180px;
 }
