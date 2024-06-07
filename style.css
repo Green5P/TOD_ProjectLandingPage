@@ -85,9 +85,17 @@ h3 {
     align-items: center;
 }
 
-#highlights p {
+#highlights h3 {
     font-size: 18px;
     margin: 30px 0;
     font-weight: bold;
     font-family: sans-serif;
 }
+
+.drones {
+    display: flex;
+    gap: 30px;
+    max-width: min-content;
+}
+
+#seasons
