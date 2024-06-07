@@ -122,3 +122,8 @@ h3 {
     background-color: #E5E7EB;
     padding: 30px 180px;
 }
+
+p {
+    text-align: right;
+    font-weight: bold;
+}
