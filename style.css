@@ -98,4 +98,8 @@ h3 {
     max-width: min-content;
 }
 
-#seasons
+#seasons img{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px rgba(128, 128, 128, 0.767);
+}
