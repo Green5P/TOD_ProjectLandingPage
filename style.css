@@ -2,9 +2,14 @@
 
 * {
     box-sizing: border-box;
-    margin: 0px;
     font-family: sans-serif;
     font-size: 14px;
+}
+
+body {
+    margin: auto;
+    max-width: 1000px;
+    border: 2px solid rgba(0, 0, 0, 0.048);
 }
 
 header {
@@ -112,18 +117,38 @@ h3 {
     gap: 10px;
 }
 
-#seasons  p {
+#seasons .season-info {
     font-size: 12px;
     text-align: center;
 }
 
 #info {
-    height: 20vh;
+    height: auto;
     background-color: #E5E7EB;
     padding: 30px 180px;
 }
 
-p {
+.arthor {
     text-align: right;
     font-weight: bold;
+}
+
+
+.inner-signup {
+    background-color: #3882F6;
+    padding: 20px 100px;
+    margin: 10px 100px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 0 30px;
 }
